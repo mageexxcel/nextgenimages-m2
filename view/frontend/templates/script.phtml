@@ -1,0 +1,22 @@
+<?php
+declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use Excellence\NextGenImages\Browser\BrowserSupport;
+
+/** @var $block Template */
+/** @var $browserSupport BrowserSupport */
+$browserSupport = $block->getBrowserSupport();
+if ($browserSupport->hasWebpSupport()) {
+    return;
+}
+?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "webp-detect": {
+                "image": "<?= $block->escapeUrl($block->getViewFileUrl('Excellence_NextGenImages/images/test.webp')) ?>"
+            }
+        }
+    }
+</script>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Excellence NextGenImages for Magento
+ *
+ * @package     Excellence_NextGenImages
+ * @license     Open Source License (OSL v3)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <excellence_nextgenimages>
+            <settings>
+                <enabled>1</enabled>
+                <debug>0</debug>
+                <quality_level>80</quality_level>
+            </settings>
+        </excellence_nextgenimages>
+    </default>
+</config>
