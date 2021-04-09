@@ -1,0 +1,33 @@
+{
+  "name": "excellence/nextgenimages",
+  "description": "Image Optimizer",
+  "require": {
+      "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.3|~7.2.0",
+      "rosell-dk/webp-convert": "^1.3",
+      "excellence/base": "0.0.*",
+      "magento/catalog": "0.0.*",
+      "magento/store": "0.0.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+  ],
+  "authors": [
+      {
+        "name": "Manish Prakash",
+        "email": "excellencetechnologies08@gmail.com",
+        "homepage": "https://excellencetechnologies.co.in/",
+        "role": "Developer"
+      }
+  ],
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "Excllence\\NextGenImages\\": ""
+      }
+  }
+}
